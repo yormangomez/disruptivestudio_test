@@ -1,0 +1,12 @@
+{
+    "[dart]": {
+        "editor.formatOnSave": false
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
+        "editor.tabSize": 4,
+        "editor.indentSize": 2
+    }
+}
