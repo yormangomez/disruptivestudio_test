@@ -12,6 +12,5 @@ export 'src/helper/utils_helper.dart';
 export 'src/widgets/widgets.dart';
 export 'src/icons/app_images.dart';
 export 'src/icons/app_icons.dart';
-export 'src/icons/widget_icon.dart';
-export 'src/icons/widget_image.dart';
+
 export 'src/fonts/app_fonts.dart';

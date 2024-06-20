@@ -81,7 +81,7 @@ class HomePage extends StatelessWidget {
                                 )
                               ],
                             ),
-                            Divider(),
+                      const      Divider(),
                           ],
                         ),
                       ),

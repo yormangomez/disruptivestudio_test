@@ -373,12 +373,12 @@ class _AppTextFieldState extends State<AppTextField> {
                               widget.suffixIconData,
                               size: 30.0,
                               color: _hasError
-                                  ? AppColors.error
+                                  ? AppColors.grey1
                                   : _textFocusNode.hasPrimaryFocus
                                       ? AppColors.primary
                                       : _text.isNotEmpty
                                           ? AppColors.black
-                                          : AppColors.grey4,
+                                          : AppColors.grey1,
                             ),
                           ),
                         )

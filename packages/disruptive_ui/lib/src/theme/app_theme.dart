@@ -40,7 +40,7 @@ class AppTheme {
 
   ColorScheme get _colorScheme {
     return ColorScheme.light(
-      secondary: AppColors.primaryLight,
+      secondary: AppColors.primary,
       background: _backgroundColor,
     );
   }
@@ -236,7 +236,7 @@ class AppDarkTheme extends AppTheme {
   ColorScheme get _colorScheme {
     return const ColorScheme.dark().copyWith(
       primary: AppColors.white,
-      secondary: AppColors.primaryLight,
+      secondary: AppColors.primary,
     );
   }
 

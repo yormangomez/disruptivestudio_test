@@ -44,16 +44,16 @@ class CoinsKlinesWidget extends StatelessWidget {
                         width: double.infinity,
                         height: MediaQuery.of(context).size.height / 1.5,
                         decoration: BoxDecoration(
-                          color: AppColors.gray100.withOpacity(0.5),
+                          color: AppColors.grey1.withOpacity(0.5),
                           borderRadius: BorderRadius.circular(16),
                         ),
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: LineChart(
                             LineChartData(
-                              lineTouchData: LineTouchData(enabled: false),
-                              gridData: FlGridData(show: false),
-                              titlesData: FlTitlesData(
+                              lineTouchData: const LineTouchData(enabled: false),
+                              gridData: const FlGridData(show: false),
+                              titlesData:const FlTitlesData(
                                 show: true,
                                 leftTitles: AxisTitles(
                                   sideTitles: SideTitles(
@@ -88,7 +88,7 @@ class CoinsKlinesWidget extends StatelessWidget {
                     ),
                   ],
                 )
-              : Center(
+              :const Center(
                   child: CircularProgressIndicator(),
                 );
         },

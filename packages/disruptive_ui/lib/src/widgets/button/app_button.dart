@@ -59,7 +59,7 @@ class AppButton extends StatelessWidget {
           typeButton: TypeButton.normal,
           valueButton: valueButton,
           onPressed: onPressed,
-          buttonColor: AppColors.orange,
+          buttonColor: AppColors.primary,
           foregroundColor: AppColors.white,
           elevation: elevation,
           textStyle: textStyle,
@@ -256,7 +256,7 @@ class AppButton extends StatelessWidget {
                   color: _containerColor,
                   borderRadius: BorderRadius.circular(32),
                   border: Border.all(
-                    color: AppColors.greenBorder,
+                    color: AppColors.primary,
                   ),
                 ),
                 child: Padding(
@@ -268,7 +268,7 @@ class AppButton extends StatelessWidget {
                       title,
                       style: const TextStyle(
                         fontSize: 11,
-                        color: AppColors.blackText,
+                        color: AppColors.primary,
                       ),
                     ),
                   ),

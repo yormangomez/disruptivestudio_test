@@ -66,7 +66,7 @@ class _AppSelectionState extends State<AppSelection> {
                 fillColor: widget._onChanged != null
                     ? MaterialStateProperty.all(widget._valueCheckbox
                         ? AppColors.primary
-                        : AppColors.grey4)
+                        : AppColors.grey1)
                     : null,
                 value: widget._valueCheckbox,
                 checkColor: AppColors.white,
@@ -84,7 +84,7 @@ class _AppSelectionState extends State<AppSelection> {
                     widget._label!,
                     style: widget._textStyle ??
                         UITextStyle.paragraphs.paragraph2Regular.copyWith(
-                          color: AppColors.grey5,
+                          color: AppColors.grey1,
                         ),
                   )
                 : const SizedBox(),
@@ -95,7 +95,7 @@ class _AppSelectionState extends State<AppSelection> {
           title: Text(
             'Natural',
             style: UITextStyle.paragraphs.paragraph2Regular.copyWith(
-              color: AppColors.grey5,
+              color: AppColors.grey1,
             ),
           ),
           value: listOption[0],

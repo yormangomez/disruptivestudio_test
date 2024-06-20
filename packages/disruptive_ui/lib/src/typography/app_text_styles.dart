@@ -67,7 +67,7 @@ class _Paragraphs {
     fontSize: 16,
     fontWeight: FontWeight.w600,
     height: 18 / 16,
-    color: AppColors.blackText,
+    color: AppColors.black,
     fontStyle: FontStyle.normal,
   );
 
@@ -75,7 +75,7 @@ class _Paragraphs {
     fontSize: 16,
     fontWeight: FontWeight.w600,
     height: 18 / 16,
-    color: AppColors.blackText,
+    color: AppColors.black,
     fontStyle: FontStyle.normal,
   );
 
@@ -83,14 +83,14 @@ class _Paragraphs {
     fontSize: 16,
     fontWeight: FontWeight.w400,
     height: 20 / 16,
-    color: AppColors.blackText,
+    color: AppColors.black,
   );
 
   TextStyle paragraph2Medium = const TextStyle(
     fontSize: 14,
     fontWeight: FontWeight.w500,
     height: 18 / 14,
-    color: AppColors.blackText,
+    color: AppColors.black,
     fontStyle: FontStyle.normal,
   );
 
@@ -98,7 +98,7 @@ class _Paragraphs {
     fontSize: 14,
     fontWeight: FontWeight.w600,
     height: 18 / 14,
-    color: AppColors.blackText,
+    color: AppColors.black,
     fontStyle: FontStyle.normal,
   );
 }
