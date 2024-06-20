@@ -14,3 +14,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+#Abrir proyecto:
+se abre el visual studio y usa comando el flutter get packages, despues utiliza el comando flutter run --flavor development -t lib/main_development.dart en el emulador de android
